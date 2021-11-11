@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!-- optionMenu 和 Reset button 的外觀實作 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/resetItem"
+        android:title="@string/reset"
+        app:showAsAction="always" />
+
+</menu>
