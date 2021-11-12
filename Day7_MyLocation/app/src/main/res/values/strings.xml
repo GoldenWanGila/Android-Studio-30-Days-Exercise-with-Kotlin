@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Day7_MyLocation</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="show_my_location">Show My Location</string>
+    <string name="locationText">0,0</string>
+</resources>
