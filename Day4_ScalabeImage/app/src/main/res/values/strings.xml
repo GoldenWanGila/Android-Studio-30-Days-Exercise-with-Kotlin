@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Day4_ScalableImage</string>
+    <string name="image_contentDescription">it can be scaled and dragged</string>
+</resources>
