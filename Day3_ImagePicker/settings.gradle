@@ -1,0 +1,2 @@
+rootProject.name = "Day3_ImagePicker"
+include ':app'
