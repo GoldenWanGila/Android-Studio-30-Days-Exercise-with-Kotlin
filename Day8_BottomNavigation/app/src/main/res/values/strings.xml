@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Day8_BottomNavigation</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="push">Push</string>
+    <string name="there_is_home_2">There is home 2.</string>
+    <string name="there_is_home_3">There is home 3</string>
+</resources>
