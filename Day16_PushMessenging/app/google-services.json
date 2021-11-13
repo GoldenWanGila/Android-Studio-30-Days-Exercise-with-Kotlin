@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "277825849138",
+    "project_id": "day16-pushmessaging",
+    "storage_bucket": "day16-pushmessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277825849138:android:7e583f30ce2cfa95ffb92b",
+        "android_client_info": {
+          "package_name": "com.example.day16_pushmessenging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277825849138-g554ashui1frklsdg24fddchc2eg2p69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8iBfbdjBPmOO6t8b-UXqCNcCLP8L7uek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277825849138-g554ashui1frklsdg24fddchc2eg2p69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
