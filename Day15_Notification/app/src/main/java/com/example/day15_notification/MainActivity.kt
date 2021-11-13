@@ -28,14 +28,17 @@ class MainActivity : AppCompatActivity() {
     private val sentNotificationButtonClickHandler = View.OnClickListener {
         val channelId = "channel id test"
 
-        val notificationChannel = NotificationChannel(channelId, "Sun", NotificationManager.IMPORTANCE_LOW)
+        val notificationChannel =
+            NotificationChannel(channelId, "Sun", NotificationManager.IMPORTANCE_LOW)
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
             .setContentTitle("Notification from Sun")
             .setContentText("It's the first time to use notification")
+            // small icon is important for notification. Without it, will cause app crash.
             .setSmallIcon(R.mipmap.ic_notification_foreground)
             .build()
 
-        val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        val notificationManager =
+            getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         notificationManager.createNotificationChannel(notificationChannel)
         notificationManager.notify(1, notificationBuilder)
     }
