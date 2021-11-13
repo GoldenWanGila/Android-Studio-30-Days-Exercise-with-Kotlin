@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Day22LocalDatabase</string>
+    <string name="id_text">0</string>
+    <string name="text_add_name">Add Name</string>
+</resources>
