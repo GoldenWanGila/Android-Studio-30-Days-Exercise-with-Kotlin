@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bird_disc_width">220dp</dimen>
+    <dimen name="bird_disc_height">220dp</dimen>
+    <dimen name="margin_top_between_two_elements">8dp</dimen>
+    <dimen name="default_margin_start">16dp</dimen>
+    <dimen name="default_margin_end">16dp</dimen>
+    <dimen name="horizontal_margin_between_two_elements">16dp</dimen>
+</resources>

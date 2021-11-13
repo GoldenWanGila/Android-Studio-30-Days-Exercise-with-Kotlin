@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Day19_LittleBirdSound</string>
+    <string name="text_bird_disc">bird disc</string>
+    <string name="text_play">Play</string>
+    <string name="text_stop">Stop</string>
+    <string name="text_volume">volume : 0%</string>
+</resources>

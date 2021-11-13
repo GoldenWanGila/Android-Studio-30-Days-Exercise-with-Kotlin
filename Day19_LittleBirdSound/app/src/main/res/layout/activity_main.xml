@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/birdDisc"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/text_bird_disc"
+        android:src="@mipmap/ic_bird_round"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/play_progression_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="@dimen/default_margin_start"
+        android:layout_marginTop="@dimen/margin_top_between_two_elements"
+        android:layout_marginEnd="@dimen/default_margin_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/birdDisc" />
+
+    <Button
+        android:id="@+id/button_play_and_pause"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin_start"
+        android:layout_marginTop="@dimen/margin_top_between_two_elements"
+        android:text="@string/text_play"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@id/button_stop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/play_progression_bar" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin_between_two_elements"
+        android:layout_marginEnd="@dimen/default_margin_end"
+        android:text="@string/text_stop"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/button_play_and_pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_play_and_pause"
+        app:layout_constraintTop_toTopOf="@id/button_play_and_pause" />
+
+    <TextView
+        android:id="@+id/volume_progression_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_top_between_two_elements"
+        android:text="@string/text_volume"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/volume_seek_bar"
+        app:layout_constraintEnd_toEndOf="@id/volume_seek_bar"
+        app:layout_constraintStart_toStartOf="@id/volume_seek_bar" />
+
+    <SeekBar
+        android:id="@+id/volume_seek_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="@dimen/default_margin_start"
+        android:layout_marginEnd="@dimen/default_margin_end"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
