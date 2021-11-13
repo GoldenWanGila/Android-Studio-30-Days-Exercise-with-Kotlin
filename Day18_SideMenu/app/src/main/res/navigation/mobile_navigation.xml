@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_chicken">
+
+    <fragment
+        android:id="@+id/nav_chicken"
+        android:name="com.example.day18_sidemenu.fragment.ChickenFragment"
+        android:label="@string/menu_chicken"
+        tools:layout="@layout/fragment_chicken" />
+
+    <fragment
+        android:id="@+id/nav_egg_1"
+        android:name="com.example.day18_sidemenu.fragment.Egg1Fragment"
+        android:label="@string/menu_egg_1"
+        tools:layout="@layout/fragment_egg1" />
+
+    <fragment
+        android:id="@+id/nav_egg_2"
+        android:name="com.example.day18_sidemenu.fragment.Egg2Fragment"
+        android:label="@string/menu_egg_2"
+        tools:layout="@layout/fragment_egg2"/>
+
+    <fragment
+        android:id="@+id/nav_eggs_1"
+        android:name="com.example.day18_sidemenu.fragment.Eggs1Fragment"
+        android:label="@string/menu_eggs_1"
+        tools:layout="@layout/fragment_eggs1"/>
+
+    <fragment
+        android:id="@+id/nav_eggs_2"
+        android:name="com.example.day18_sidemenu.fragment.Eggs2Fragment"
+        android:label="@string/menu_eggs_2"
+        tools:layout="@layout/fragment_eggs2"/>
+
+</navigation>

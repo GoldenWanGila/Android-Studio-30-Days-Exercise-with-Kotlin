@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chicken"
+            android:icon="@drawable/ic_chicken"
+            android:title="@string/menu_chicken" />
+
+        <item android:title="@string/menu_egg">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_egg_1"
+                        android:title="@string/menu_egg_1"
+                        android:icon="@drawable/ic_egg"/>
+                    <item
+                        android:id="@+id/nav_egg_2"
+                        android:title="@string/menu_egg_2"
+                        android:icon="@drawable/ic_egg" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/menu_egg_group">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_eggs_1"
+                        android:title="@string/menu_eggs_1"
+                        android:icon="@drawable/ic_eggs" />
+                    <item
+                        android:id="@+id/nav_eggs_2"
+                        android:title="@string/menu_eggs_2"
+                        android:icon="@drawable/ic_eggs" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+</menu>
