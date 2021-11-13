@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Day13_LocalStorage</string>
+    <string name="name">Name:</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="show_name">Show Name</string>
+    <string name="text">Text:</string>
+    <string name="show_text">show text</string>
+</resources>
