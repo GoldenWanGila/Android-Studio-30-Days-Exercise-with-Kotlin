@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Day21_LayoutSwitch</string>
+    <string name="text_switch">switch</string>
+</resources>
