@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day12_GithubStar</string>
+    <string name="username">Username:</string>
+    <string name="search">Search</string>
+    <string name="description">description</string>
+    <string name="starText">0</string>
+    <string name="forkText">0</string>
+</resources>
