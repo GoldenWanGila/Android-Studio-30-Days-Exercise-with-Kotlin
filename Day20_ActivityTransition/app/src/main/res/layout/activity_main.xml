@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view_yun_ting"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:contentDescription="@string/content_description_for_image_view"
+        android:src="@drawable/pigtails_yun_ting"
+        android:transitionName="yunTingTransition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_love_and_peace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_horizontal"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:layout_marginEnd="@dimen/margin_horizontal"
+        android:layout_marginBottom="@dimen/margin_vertical"
+        android:text="@string/text_love_amp_peace"
+        android:textAlignment="center"
+        android:textSize="@dimen/button_text_size"
+        android:transitionName="textTransition"
+        app:layout_constraintBottom_toTopOf="@id/button_explode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_view_yun_ting" />
+
+    <Button
+        android:id="@+id/button_explode"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:layout_marginBottom="@dimen/margin_vertical"
+        android:text="@string/text_explode"
+        android:textAlignment="center"
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintBottom_toTopOf="@id/button_slide"
+        app:layout_constraintEnd_toEndOf="@id/button_love_and_peace"
+        app:layout_constraintStart_toStartOf="@id/button_love_and_peace"
+        app:layout_constraintTop_toBottomOf="@id/button_love_and_peace" />
+
+    <Button
+        android:id="@+id/button_slide"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:layout_marginBottom="@dimen/margin_vertical"
+        android:text="@string/text_slide"
+        android:textAlignment="center"
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintBottom_toTopOf="@id/button_fade"
+        app:layout_constraintEnd_toEndOf="@id/button_love_and_peace"
+        app:layout_constraintStart_toStartOf="@id/button_love_and_peace"
+        app:layout_constraintTop_toBottomOf="@id/button_explode" />
+
+    <Button
+        android:id="@+id/button_fade"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:layout_marginBottom="@dimen/triple_margin_vertical"
+        android:text="@string/text_fade"
+        android:textAlignment="center"
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/button_love_and_peace"
+        app:layout_constraintStart_toStartOf="@id/button_love_and_peace"
+        app:layout_constraintTop_toBottomOf="@id/button_slide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day20_ActivityTransition</string>
+    <string name="content_description_for_image_view">YunTing photo</string>
+    <string name="text_love_amp_peace"><![CDATA[Love & Peace]]></string>
+    <string name="text_explode">Explode</string>
+    <string name="text_slide">Slide</string>
+    <string name="text_fade">Fade</string>
+</resources>
