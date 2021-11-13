@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation.InterpolatorActivity">
+
+    <ImageView
+        android:id="@+id/volleyBall"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="32dp"
+        android:contentDescription="@string/volley_ball_for_doing_animation"
+        android:src="@drawable/ic_volleyball_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/accelerateButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/accelerate"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/accelerateDecelerateButton"
+        app:layout_constraintEnd_toEndOf="@id/accelerateDecelerateButton"
+        app:layout_constraintBottom_toTopOf="@id/accelerateDecelerateButton"/>
+
+    <Button
+        android:id="@+id/anticipateButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/anticipate"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/anticipateOvershootButton"
+        app:layout_constraintEnd_toEndOf="@id/anticipateOvershootButton"
+        app:layout_constraintBottom_toTopOf="@id/anticipateOvershootButton"/>
+
+    <Button
+        android:id="@+id/accelerateDecelerateButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/accelerate_decelerate"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/anticipateOvershootButton"/>
+
+    <Button
+        android:id="@+id/anticipateOvershootButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/anticipate_overshoot"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/accelerateDecelerateButton"
+        app:layout_constraintBottom_toBottomOf="@id/accelerateDecelerateButton"
+        app:layout_constraintTop_toTopOf="@id/accelerateDecelerateButton"/>
+
+    <Button
+        android:id="@+id/overshootButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/overshoot"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/anticipateOvershootButton"
+        app:layout_constraintEnd_toEndOf="@id/anticipateOvershootButton"
+        app:layout_constraintBottom_toTopOf="@id/anticipateButton" />
+
+    <Button
+        android:id="@+id/linearButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/linear"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/accelerateDecelerateButton"
+        app:layout_constraintEnd_toEndOf="@id/accelerateDecelerateButton"
+        app:layout_constraintBottom_toTopOf="@id/accelerateButton" />
+
+    <Button
+        android:id="@+id/decelerateButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/decelerate"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/accelerateDecelerateButton"
+        app:layout_constraintEnd_toEndOf="@id/accelerateDecelerateButton"
+        app:layout_constraintBottom_toTopOf="@id/linearButton" />
+
+    <Button
+        android:id="@+id/cycleButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cycle"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/anticipateOvershootButton"
+        app:layout_constraintEnd_toEndOf="@id/anticipateOvershootButton"
+        app:layout_constraintBottom_toTopOf="@id/overshootButton" />
+
+    <Button
+        android:id="@+id/bounceButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bounce"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/accelerateDecelerateButton"
+        app:layout_constraintEnd_toEndOf="@id/accelerateDecelerateButton"
+        app:layout_constraintBottom_toTopOf="@id/decelerateButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Day14_Ball</string>
+    <string name="value_animator">Value Animator</string>
+    <string name="object_animator">Object Animator</string>
+    <string name="animator_set">Animator Set</string>
+    <string name="interpolator">Interpolator</string>
+    <string name="go">Go</string>
+    <string name="volley_ball_for_doing_animation">Volley ball for doing animation</string>
+    <string name="optionNumber">0</string>
+    <string name="one_by_one">One By One</string>
+    <string name="same_time">Same Time</string>
+    <string name="accelerate">Accelerate</string>
+    <string name="anticipate">Anticipate</string>
+    <string name="accelerate_decelerate">Accelerate Decelerate</string>
+    <string name="anticipate_overshoot">Anticipate Overshoot</string>
+    <string name="bounce">Bounce</string>
+    <string name="cycle">Cycle</string>
+    <string name="decelerate">Decelerate</string>
+    <string name="linear">Linear</string>
+    <string name="overshoot">Overshoot</string>
+</resources>
