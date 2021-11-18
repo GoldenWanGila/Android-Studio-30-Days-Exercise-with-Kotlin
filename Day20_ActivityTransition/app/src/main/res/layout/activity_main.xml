@@ -12,7 +12,7 @@
         android:layout_height="300dp"
         android:layout_marginTop="@dimen/margin_vertical"
         android:contentDescription="@string/content_description_for_image_view"
-        android:src="@drawable/pigtails_yun_ting"
+        android:src="@drawable/image03"
         android:transitionName="yunTingTransition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
