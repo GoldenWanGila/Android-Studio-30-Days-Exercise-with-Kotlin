@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         // 增加內容
         for (i in 0..9) {
             val randomNumber = Random.nextInt(100)
-            newProducts.add(ProductsModel("YunTing $randomNumber"))
+            newProducts.add(ProductsModel("image $randomNumber"))
         }
         productsAdapter.products = newProducts
 
