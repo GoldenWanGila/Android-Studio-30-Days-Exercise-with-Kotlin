@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupView() {
         // setup data
-        products.add(ProductsModel("YunTing 1"))
+        products.add(ProductsModel("image 1"))
         productsAdapter = ProductsAdapter(products)
         // setup recyclerView
         binding.recyclerView.layoutManager = GridLayoutManager(this, 2)

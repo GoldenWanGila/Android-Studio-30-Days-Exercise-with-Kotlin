@@ -24,9 +24,9 @@
                 android:id="@+id/nameImageView"
                 android:layout_width="0dp"
                 android:layout_height="160dp"
-                android:contentDescription="@string/beautyWoman"
+                android:contentDescription="@string/beauty"
                 android:scaleType="centerCrop"
-                android:src="@drawable/yun_ting"
+                android:src="@drawable/image"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
