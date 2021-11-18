@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getImages() {
         imageList = arrayListOf()
-        for (i in 1..6) {
+        for (i in 1..4) {
             val imageName = "image0$i"
             imageList.add(getResourceByResourceName(imageName))
         }
