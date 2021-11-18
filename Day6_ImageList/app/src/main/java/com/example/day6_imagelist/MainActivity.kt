@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     // 回傳以ImageModel data class儲存的list
     private fun getDataList(): MutableList<ImageModel> {
         val imageList = arrayListOf<ImageModel>()
-        for (i in 0..5) {
+        for (i in 0..3) {
             val imageName = "image0${i + 1}"
             imageList.add(
                 ImageModel(
