@@ -31,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/item_big_like_text_view"
-        android:src="@drawable/yun_ting_1"
+        android:src="@drawable/image01"
         android:background="@color/black"/>
 
     <TextView

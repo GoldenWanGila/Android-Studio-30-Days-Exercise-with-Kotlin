@@ -50,10 +50,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupItems() {
-        items.add(ItemModel("Surprised YunTing", 100, 1, R.drawable.yun_ting_1))
-        items.add(ItemModel("YunTing with different glasses", 200, 1, R.drawable.yun_ting_2))
-        items.add(ItemModel("YunTing with pigtails", 300, 1, R.drawable.yun_ting_3))
-        items.add(ItemModel("YunTing with big smile", 400, 1, R.drawable.yun_ting_4))
+        items.add(ItemModel("Image 01", 100, 1, R.drawable.image01))
+        items.add(ItemModel("Image 02", 200, 1, R.drawable.image02))
+        items.add(ItemModel("Image 03", 300, 1, R.drawable.image03))
+        items.add(ItemModel("Image 04", 400, 1, R.drawable.image04))
     }
 
     private fun switchLayout() {
